@@ -2,11 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-<<<<<<< HEAD
   baseURL: "https://hrmsbackend-7.onrender.com/api",
-=======
-  baseURL: "https://hrmsbackend-3.onrender.com//api",
->>>>>>> f65b31dd0b5da4d8d5477c94806296f500ea634d
   timeout: 10000,
 });
 
