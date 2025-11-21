@@ -17,7 +17,7 @@ export default function Employees() {
   const load = async () => {
     try {
       setLoading(true);
-      const res = await api.get("http://localhost:5000/api/employees");
+      const res = await api.get("/api/employees");
       console.log(res, "Resdata from employees")
       setEmployees(res.data);
     } catch (e) {
