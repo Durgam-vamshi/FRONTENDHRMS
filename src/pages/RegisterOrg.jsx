@@ -38,11 +38,7 @@ const RegisterOrg = () => {
     setMessage(null); 
 
     try {
-<<<<<<< HEAD
       const API_URL = 'https://hrmsbackend-7.onrender.com/api/auth/register'; 
-=======
-      const API_URL = 'https://hrmsbackend-3.onrender.com/api/auth/register'; 
->>>>>>> f65b31dd0b5da4d8d5477c94806296f500ea634d
       
       const response = await axios.post(API_URL, formData);
       
